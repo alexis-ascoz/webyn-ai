@@ -33,6 +33,15 @@ Enable `Kubernetes Engine API` to be able to create a kubernetes cluster.
 gcloud services enable container.googleapis.com
 ```
 
+### Login to terraform
+
+> [!NOTE]
+> This is required to use terraform cloud to store the state of the infrastructure. You will need to create an account [here](https://app.terraform.io/signup/account) and create a new organization.
+
+```bash
+terraform login
+```
+
 ### Clone the repository
 
 ```bash
